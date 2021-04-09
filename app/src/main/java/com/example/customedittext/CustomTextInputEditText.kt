@@ -1,13 +1,8 @@
 package com.example.customedittext
 
 import android.content.Context
-import android.text.Editable
 import android.util.AttributeSet
-import android.util.Log
-import com.google.android.material.internal.ThemeEnforcement
 import com.google.android.material.textfield.TextInputEditText
-import com.google.android.material.theme.overlay.MaterialThemeOverlay
-import kotlinx.android.synthetic.main.activity_login.view.*
 
 
 class CustomTextInputEditText : TextInputEditText {
