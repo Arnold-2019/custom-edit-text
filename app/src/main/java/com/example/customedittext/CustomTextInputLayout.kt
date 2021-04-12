@@ -12,12 +12,12 @@ class CustomTextInputLayout : TextInputLayout {
 
     constructor(context: Context, attrs: AttributeSet?) : super(context, attrs) {
 
-        val typedArray = context.theme.obtainStyledAttributes(attrs, R.styleable.CustomTitleView, 0, 0)
+        val typedArray = context.theme.obtainStyledAttributes(attrs, R.styleable.CustomTextInputLayout, 0, 0)
         val n = typedArray.indexCount
         for (i in 0 until n) {
-            val arr = typedArray.getIndex(i) //获得单个属性值
+            val arr = typedArray.getIndex(i)
             when (arr) {
-                R.styleable.CustomTitleView_titleText -> mTitleText = typedArray.getString(arr)
+                R.styleable.CustomTextInputLayout_titleText -> mTitleText = typedArray.getString(arr)
                 else -> {
                 }
             }

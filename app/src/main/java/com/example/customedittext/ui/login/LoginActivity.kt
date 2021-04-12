@@ -12,6 +12,6 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        custom_text_input_edit_text.setPreFillText("This is the prefill text.")
+        custom_text_input_edit_text.setPreFillText()
     }
 }
